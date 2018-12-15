@@ -17,3 +17,11 @@ function add2(...param1) {
 }
 // console.log(add2(1,2,3,4,5));
 // console.log(add2(2,3));
+
+
+function addTwoDigits(n) {
+  let strN = n.toString()
+  return Number(strN[0]) + Number(strN[1]);
+}
+
+// console.log(addTwoDigits(29));
